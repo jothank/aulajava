@@ -16,15 +16,15 @@ public class IMC {
 		resultado=peso/(altura*altura);
 		
 		if(resultado<=18.5)	{	
-			System.out.println("Olá " + nome + ", seu resultado é: " + resultado + " Magreza.");
+			System.out.println("Olá " + nome + ", seu resultado é: " + resultado + " considerado Magreza.");
 		} else if (resultado>18.5 && resultado <=24.9) {
-			System.out.println("Olá " + nome + ", seu resultado é: " + resultado + " Normal.");
-		} else if (resultado>18.5 && resultado <=24.9) {
-			System.out.println("Olá " + nome + ", seu resultado é: " + resultado + " Sobrepeso.");
-		} else if (resultado>18.5 && resultado <=24.9) {
-			System.out.println("Olá " + nome + ", seu resultado é: " + resultado + " Obesidade.");
-		} else if (resultado>18.5 && resultado <=24.9) {
-			System.out.println("Olá " + nome + ", seu resultado é: " + resultado + " Obesidade Grave.");
+			System.out.println("Olá " + nome + ", seu resultado é: " + resultado + " considerado Normal.");
+		} else if (resultado>24.9 && resultado <=29.9) {
+			System.out.println("Olá " + nome + ", seu resultado é: " + resultado + " considerado Sobrepeso.");
+		} else if (resultado>29.9 && resultado <=39.9) {
+			System.out.println("Olá " + nome + ", seu resultado é: " + resultado + " considerado Obesidade.");
+		} else if (resultado>39.9 && resultado <=99.9) {
+			System.out.println("Olá " + nome + ", seu resultado é: " + resultado + " considerado Obesidade Grave.");
 		}
 	}
 
