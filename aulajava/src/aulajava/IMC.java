@@ -23,7 +23,7 @@ public class IMC {
 			System.out.println("Olá " + nome + ", seu resultado é: " + resultado + " considerado Sobrepeso.");
 		} else if (resultado>29.9 && resultado <=39.9) {
 			System.out.println("Olá " + nome + ", seu resultado é: " + resultado + " considerado Obesidade.");
-		} else if (resultado>39.9 && resultado <=99.9) {
+		} else if (resultado>39.9) {
 			System.out.println("Olá " + nome + ", seu resultado é: " + resultado + " considerado Obesidade Grave.");
 		}
 	}
