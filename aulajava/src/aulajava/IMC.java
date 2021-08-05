@@ -18,7 +18,7 @@ public class IMC {
 	
 		resultado=peso/(altura*altura);
 		
-		if(resultado<=18.5)	{	
+		if(resultado<=18.5) {	
 			System.out.println("Olá " + nome + ", seu resultado é: " + df.format(resultado) + " considerado Magreza.");
 		} else if (resultado>18.5 && resultado <=24.9) {
 			System.out.println("Olá " + nome + ", seu resultado é: " + df.format(resultado) + " considerado Normal.");
