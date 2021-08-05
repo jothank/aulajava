@@ -13,5 +13,10 @@ public class curso {
 		System.out.println(cargaHoraria);
 		System.out.println(preco);
 	}
+	
+	public void reajustePreco (double percentual) {
+		preco=preco+(preco*percentual)/100;
+	}
+	
 
 }
