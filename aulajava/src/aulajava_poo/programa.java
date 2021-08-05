@@ -18,7 +18,9 @@ public class programa {
 				
 		curso1.imprime();		
 		
-		reajuste=10.0;
+		System.out.println("********************************");
+		
+		reajuste=Double.parseDouble(JOptionPane.showInputDialog("Digite a quantidade de acrescimo"));
 		curso1.reajustePreco(reajuste);
 		curso1.imprime();
 				
