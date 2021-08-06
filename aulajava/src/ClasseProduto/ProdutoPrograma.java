@@ -14,9 +14,13 @@ public class ProdutoPrograma {
 		
 		double valorAdicional;
 		
+		System.out.println("");
+		
 		item.imprime();
 		
+		System.out.println("");
 		System.out.println("************************************************");
+		System.out.println("");
 				
 		valorAdicional=Double.parseDouble(JOptionPane.showInputDialog("Digite valor para adicionar ao preço: "));
 		item.compra=Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade de produtos comprados: "));
